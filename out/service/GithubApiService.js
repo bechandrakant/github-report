@@ -17,7 +17,7 @@ var GithubApiService = /** @class */ (function () {
                 "User-Agent": "request"
             }
         };
-        request.get("https://api.github.com/users" + userName, options, function (error, response, body) {
+        request.get("https://api.github.com/users/" + userName, options, function (error, response, body) {
             console.log(body);
         });
     };

@@ -7,7 +7,7 @@ export class GithubApiService {
         "User-Agent": "request"
       }
     }
-    request.get("https://api.github.com/users" + userName, options, 
+    request.get("https://api.github.com/users/" + userName, options, 
                 (error: any, response: any, body: any) => {
                   console.log(body);
                 });
