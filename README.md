@@ -4,6 +4,18 @@ This project was done by following javabrains [tutorial](https://www.youtube.com
 
 ## Problem statement
 
+## Dependencies
+
+request and lodash
+```
+npm install request lodash --save
+```
+
+install type-definitions of request and loadash
+```
+npm install @types/request @types/lodash --save
+```
+
 ## compile
 
 ## run
